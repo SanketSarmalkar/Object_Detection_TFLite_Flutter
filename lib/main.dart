@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:object_detection_app/views/camera_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      home: const CameraView(),
     );
   }
 }
